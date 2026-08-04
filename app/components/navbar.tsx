@@ -28,7 +28,7 @@ const navigation = [
       {
         title: "Overview",
         description: "Mission, vision and history.",
-        href: "/about",
+        href: "/about-us/overview",
         icon: Building2,
       },
       {
@@ -205,7 +205,7 @@ export default function Navbar() {
         <button
           className={`lg:hidden ${
             scrolled
-              ? "text-black"
+              ? "text-white"
               : "text-white"
           }`}
           onClick={() => setMobileMenu(!mobileMenu)}

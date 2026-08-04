@@ -68,12 +68,17 @@ export default function Vision() {
           </h2>
 
           <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-gray-600 md:text-lg">
-            We envision a future where every community has equal
+            {/* We envision a future where every community has equal
             access to quality education, healthcare, and sustainable
             opportunities. Through transparency, accountability, and
             collaboration, we are building lasting partnerships that
             inspire hope and create meaningful impact for generations
-            to come.
+            to come. */}
+
+            We envision a world where every child is valued, respected, and supported, 
+            and where every child has the chance to grow up happy, healthy, and full 
+            of hope. We believe that by investing in our youngest generation, we can 
+            create a better future. Charity Begins at Home with The Child.
           </p>
 
          {/* link should be here */}

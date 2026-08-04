@@ -15,7 +15,7 @@ export default function OurMission() {
 
         <div className="relative overflow-hidden rounded-3xl">
           <Image
-            src="/volunteer.jpg"
+            src="/hero3.jpg"
             alt="Our Mission"
             width={700}
             height={800}
@@ -30,7 +30,7 @@ export default function OurMission() {
             </h3>
 
             <p className="mt-2 text-3xl text-yellow-600">
-              xxxxxx
+              2019
             </p>
           </div>
         </div>
