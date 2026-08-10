@@ -101,8 +101,8 @@ export default function Navbar() {
   }, []);
 
   return (
-   <header className="fixed top-0 left-0 z-50 w-full bg-black shadow-lg py-4"
-      className={`fixed bg-blacktop-0 left-0 z-50 w-full transition-all duration-300 ${
+   <header
+      className={`fixed bg-black top-0 left-0 z-50 w-full shadow-lg transition-all py-4 duration-300 ${
         scrolled
           ? "bg-black shadow-md py-3"
           : "bg-transparent py-5"
