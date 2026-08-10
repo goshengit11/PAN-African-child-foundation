@@ -190,11 +190,12 @@ export default function Navbar() {
               </Link>
             )
           )}
-
-          <button className="rounded-full border border-gray-300 px-5 py-2 hover:bg-white hover:text-black transition duration-300 ease-in-out">
+             <Link href={"/volunteers"}
+          className="rounded-full border border-gray-300 px-5 py-2 hover:bg-white hover:text-black transition duration-300 ease-in-out"
+            >
             Volunteer
-          </button>
-
+          
+          </Link>
           <button className="rounded-full bg-yellow-400 px-6 py-2 font-semibold hover:bg-yellow-500">
             Donate
           </button>
