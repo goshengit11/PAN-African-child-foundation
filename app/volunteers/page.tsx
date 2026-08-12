@@ -86,7 +86,7 @@ export default function Volunteer() {
                 <div className="relative overflow-hidden rounded-[2rem] bg-yellow-400 p-2">
 
                   <img
-                    src="/volunteer.jpg"
+                    src="/wafa1.png"
                     alt="Volunteers supporting the community"
                     className="h-[350px] w-full rounded-[1.6rem] object-cover sm:h-[450px]"
                   />
@@ -715,7 +715,7 @@ export default function Volunteer() {
           </p>
 
           <Link
-            href={"/volunteerform"}
+            href={"/volunteers/volunteerform"}
             className="group mt-8 inline-flex items-center gap-3 rounded-full bg-black px-8 py-4 font-bold text-white transition-all duration-300 hover:-translate-y-1 hover:bg-gray-900 hover:shadow-xl"
           >
             Become a Volunteer

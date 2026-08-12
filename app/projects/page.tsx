@@ -353,17 +353,17 @@ export default function ProjectsImpact() {
                 </div>
 
                 <h2 className="mt-5 text-3xl font-extrabold uppercase leading-tight text-black sm:text-4xl">
-                  Educate the Child at
-                  <span className="block">
-                    Orita Naira Community School
-                  </span>
+                  Educate the Child 
+                  {/* <span className="block">
+                   
+                  </span> */}
                 </h2>
 
                 <div className="mt-6 h-1 w-16 bg-black" />
 
                 <p className="mt-6 leading-8 text-gray-800">
-                  Our education-focused outreach at Orita Naira Community
-                  School, Ogbomoso, reflects our commitment to supporting
+                  Our education-focused outreach
+                  reflects our commitment to supporting
                   children and helping create opportunities for learning
                   and development.
 
@@ -455,14 +455,14 @@ export default function ProjectsImpact() {
 
               </div>
 
-            </div>
+            </div> 
 
           </div>
 
 
           {/* Less Privileged */}
 
-          <div className="mt-10 grid overflow-hidden rounded-[2rem] bg-black shadow-xl lg:grid-cols-2">
+          {/* <div className="mt-10 grid overflow-hidden rounded-[2rem] bg-black shadow-xl lg:grid-cols-2">
 
             <div className="order-2 flex items-center p-8 sm:p-12 lg:order-1 lg:p-14">
 
@@ -497,7 +497,7 @@ export default function ProjectsImpact() {
 
             </div>
 
-          </div>
+          </div> */}
 
         </div>
 

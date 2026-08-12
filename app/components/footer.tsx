@@ -59,8 +59,9 @@ export default function Footer() {
 
           {/* Brand */}
           <div>
-            <h2 className="text-3xl font-bold  text-yellow-500">
-             BrandName
+            <h2 className="text-xl font-bold  text-yellow-500 uppercase">
+             The Pan-African <br/>
+             Child Foundation 
             </h2>
 
             <p className="mt-5 leading-7 text-gray-400">
@@ -198,7 +199,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="#"
+                href="https://www.instagram.com/childofafricamediapress?igsh=MXJmdXg2MXI1a2Jqbw%3D%3D&utm_source=qr"
                 className="flex h-10 w-10 items-center justify-center rounded-full bg-yellow-500 text-black transition-all duration-300 hover:-translate-y-1 hover:bg-yellow-400"
               >
                 <FaInstagram />
@@ -269,10 +270,10 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-4 text-sm text-gray-500 md:flex-row">
 
             <p>
-              © {new Date().getFullYear()} Brandname All Rights Reserved.
+              © {new Date().getFullYear()} The Pan-African Child Foundation  All Rights Reserved.
             </p>
 
-            <div className="flex gap-6">
+            {/* <div className="flex gap-6">
 
               <Link href="#" className="hover:text-yellow-500">
                 Privacy Policy
@@ -282,7 +283,7 @@ export default function Footer() {
                 Terms of Service
               </Link>
 
-            </div>
+            </div> */}
 
           </div>
 
