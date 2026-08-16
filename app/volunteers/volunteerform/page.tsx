@@ -272,17 +272,17 @@ export default function VolunteerForm() {
                       <option value="" disabled>
                         Select an area
                       </option>
-                      <option value="Community Development">
-                        Community Development
-                      </option>
-                      <option value="Education">Education</option>
-                      <option value="Youth Development">
+                      {/* <option value="Media arm">
+                        Media arm
+                      </option> */}
+                      <option value="volunteering arm">Volunteering arm</option>
+                      {/* <option value="Youth Development">
                         Youth Development
-                      </option>
-                      {/* <option value="Event Support">Event Support</option>
+                      </option> */}
+                      {/* <option value="Event Support">Event Support</option> */}
                       <option value="Media & Communications">
                         Media & Communications
-                      </option> */}
+                      </option> 
                       {/* <option value="Technology">Technology</option> */}
                       <option value="Fundraising">Fundraising</option>
                       <option value="Other">Other</option>
