@@ -24,6 +24,7 @@ import {
   MessageSquare,
   Send,
   CheckCircle,
+  Calendar,
 } from "lucide-react";
 
 export default function VolunteerForm() {
@@ -47,6 +48,7 @@ export default function VolunteerForm() {
       phone: formData.get("phone"),
       location: formData.get("location"),
       occupation: formData.get("occupation"),
+      dateOfBirth: formData.get("dateOfBirth"),
       areaOfInterest: formData.get("areaOfInterest"),
       message: formData.get("message"),
     };
@@ -222,7 +224,8 @@ export default function VolunteerForm() {
                   </div>
 
                   {/* Occupation */}
-                  <div className="md:col-span-2">
+                  <div>
+                  <div>
                     <label
                       htmlFor="occupation"
                       className="mb-2 block text-sm font-medium text-gray-200"
@@ -238,6 +241,30 @@ export default function VolunteerForm() {
                         name="occupation"
                         type="text"
                         placeholder="e.g. Student, Teacher, Designer..."
+                        className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-12 pr-4 text-white outline-none transition placeholder:text-gray-600 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400"
+                      />
+                    </div>
+                    </div>
+                  </div>
+
+                  {/* date of birth */}
+                  <div>
+                    <label
+                      htmlFor="dateOfBirth"
+                      className="mb-2 block text-sm font-medium text-gray-200"
+                    >
+                      Date of Birth <span className="text-yellow-400">*</span>
+                    </label>
+
+                    <div className="relative">
+                      <Calendar className="absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-yellow-500" />
+
+                      <input
+                        id="dateOfBirth"
+                        name="dateOfBirth"
+                        type="text"
+                        required
+                        placeholder="Day/Month/Year"
                         className="w-full rounded-xl border border-white/10 bg-white/5 py-3.5 pl-12 pr-4 text-white outline-none transition placeholder:text-gray-600 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400"
                       />
                     </div>

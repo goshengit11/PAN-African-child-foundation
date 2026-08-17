@@ -42,11 +42,12 @@ export async function POST(request: Request) {
       phone,
       location,
       occupation,
+      dateOfBirth,
       areaOfInterest,
       message,
     } = body;
 
-    if (!fullName || !email || !phone || !location || !areaOfInterest) {
+    if (!fullName || !email || !phone || !location || !dateOfBirth || !areaOfInterest) {
       return NextResponse.json(
         { message: "Please fill in all required fields." },
         { status: 400 }
@@ -85,6 +86,8 @@ export async function POST(request: Request) {
               <p><strong>Phone:</strong> ${phone}</p>
 
               <p><strong>Location:</strong> ${location}</p>
+              
+              <p><strong>DateOfBirth:</strong> ${dateOfBirth}</p>
 
               <p>
                 <strong>Occupation:</strong>
