@@ -129,11 +129,11 @@ export default function Footer() {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link href="/contact" className="hover:text-yellow-500">
                   Contact
                 </Link>
-              </li>
+              </li> */}
 
             </ul>
           </div>
@@ -174,11 +174,11 @@ export default function Footer() {
               </p>
 
               <p>
-                Email:xxxxxxx
+                Email:childofafrcan68@gmail.com
               </p>
 
               <p>
-                Tel: xxxxxx
+                Tel: +234-816-6848-668
               </p>
 
 

@@ -69,28 +69,28 @@ function ProjectSlider({
     <div className="relative h-[350px] w-full overflow-hidden sm:h-[450px] lg:h-[520px]">
 
       <Swiper
-        modules={[Autoplay, EffectFade]}
-        effect="fade"
-        loop={true}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-        }}
-        speed={1000}
-        className="h-full w-full"
-      >
-        {images.map((image, index) => (
-          <SwiperSlide key={index}>
-            <img
-              src={image}
-              alt={`${title} ${index + 1}`}
-              className="h-full w-full object-cover"
-            />
+  modules={[Autoplay, EffectFade]}
+  effect="fade"
+  loop={true}
+  autoplay={{
+    delay: 4000,
+    disableOnInteraction: false,
+  }}
+  speed={1000}
+  className="w-full h-[500px] md:h-[700px]"
+>
+  {images.map((image, index) => (
+    <SwiperSlide key={index} className="relative h-full w-full">
+      <img
+        src={image}
+        alt={`${title} ${index + 1}`}
+        className="block h-full w-full object-cover"
+      />
 
-            <div className="absolute inset-0 bg-black/10" />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="absolute inset-0 bg-black/10" />
+    </SwiperSlide>
+  ))}
+</Swiper>
 
       {/* Slider Label */}
       <div className="absolute bottom-5 left-5 z-20 rounded-full bg-black/70 px-5 py-2 text-xs font-semibold uppercase tracking-wider text-white backdrop-blur-sm">

@@ -56,7 +56,7 @@ export async function POST(request: Request) {
 
     const { data, error } = await resend.emails.send({
       from: "Volunteer Form <onboarding@resend.dev>",
-      to: [process.env.ADMIN_EMAIL!],
+      to: process.env.ADMIN_EMAIL!,
       replyTo: email,
       subject: `New Volunteer Application - ${fullName}`,
 

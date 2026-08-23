@@ -79,10 +79,10 @@ const navigation = [
       },
     ],
   },
-  {
-    title: "Contact",
-    href: "/contact",
-  },
+  // {
+  //   title: "Contact",
+  //   href: "/contact",
+  // },
 ];
 
 export default function Navbar() {
@@ -196,9 +196,9 @@ export default function Navbar() {
             Volunteer
           
           </Link>
-          <button className="rounded-full bg-yellow-400 px-6 py-2 font-semibold hover:bg-yellow-500">
+          {/* <button className="rounded-full bg-yellow-400 px-6 py-2 font-semibold hover:bg-yellow-500">
             Donate
-          </button>
+          </button> */}
         </nav>
 
         {/* Mobile Button */}
@@ -282,9 +282,9 @@ export default function Navbar() {
               Volunteer
             </button>
 
-            <button className="w-full rounded-full bg-yellow-400 py-3 font-semibold">
+            {/* <button className="w-full rounded-full bg-yellow-400 py-3 font-semibold">
               Donate
-            </button>
+            </button> */}
 
           </div>
 
